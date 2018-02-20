@@ -21,11 +21,11 @@ s.description      = <<-DESC
 library for TotalPlay IOs developpers, this pod include some of a most used classes and objects.
 DESC
 
-s.homepage         = 'https://github.com/developersmoviletp/utilsIOS'
+s.homepage         = 'https://github.com/developersmoviletp/iosutilities'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Juan Reynaldo Escobar Miron' => 'jrescobarmiron@gmail.com' }
-s.source           = { :git => 'https://github.com/developersmoviletp/utilsIOS.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/developersmoviletp/iosutilities.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 s.ios.deployment_target = '9.0'
