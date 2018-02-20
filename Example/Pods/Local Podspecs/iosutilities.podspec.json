@@ -1,0 +1,39 @@
+{
+  "name": "iosutilities",
+  "version": "0.1.0",
+  "summary": "IOs resources for totalplay developers.",
+  "description": "library for TotalPlay IOs developpers, this pod include some of a most used classes and objects.",
+  "homepage": "https://github.com/developersmoviletp/utilsIOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Juan Reynaldo Escobar Miron": "jrescobarmiron@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/developersmoviletp/utilsIOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Resources/Classes/**/*",
+  "dependencies": {
+    "PKHUD": [
+      "~> 4.0"
+    ],
+    "AlamofireObjectMapper": [
+      "~> 5.0"
+    ],
+    "Alamofire": [
+      "~> 4.5"
+    ],
+    "ActionSheetPicker-3.0": [
+
+    ],
+    "RealmSwift": [
+
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module iosutilities {
+  umbrella header "iosutilities-umbrella.h"
+
+  export *
+  module * { export * }
+}
