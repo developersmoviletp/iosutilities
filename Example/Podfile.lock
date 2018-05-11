@@ -1,29 +1,32 @@
 PODS:
   - ActionSheetPicker-3.0 (2.3.0)
-  - Alamofire (4.6.0)
+  - Alamofire (4.7.2)
   - AlamofireObjectMapper (5.0.0):
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 3.0)
-  - iosutilities (0.1.0):
+  - CryptoSwift (0.9.0)
+  - iosutilities (1.0.2):
     - ActionSheetPicker-3.0
-    - Alamofire (~> 4.5)
-    - AlamofireObjectMapper (~> 5.0)
-    - PKHUD (~> 4.0)
+    - Alamofire
+    - AlamofireObjectMapper
+    - CryptoSwift
+    - PKHUD
     - RealmSwift
   - ObjectMapper (3.1.0)
-  - PKHUD (4.2.3)
-  - Realm (3.0.2):
-    - Realm/Headers (= 3.0.2)
-  - Realm/Headers (3.0.2)
-  - RealmSwift (3.0.2):
-    - Realm (= 3.0.2)
+  - PKHUD (5.0.0)
+  - Realm (3.5.0):
+    - Realm/Headers (= 3.5.0)
+  - Realm/Headers (3.5.0)
+  - RealmSwift (3.5.0):
+    - Realm (= 3.5.0)
 
 DEPENDENCIES:
   - ActionSheetPicker-3.0
-  - Alamofire (~> 4.5)
-  - AlamofireObjectMapper (~> 5.0)
+  - Alamofire
+  - AlamofireObjectMapper
+  - CryptoSwift
   - iosutilities (from `../`)
-  - PKHUD (~> 4.0)
+  - PKHUD
   - RealmSwift
 
 EXTERNAL SOURCES:
@@ -32,14 +35,15 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ActionSheetPicker-3.0: eef157d75e151f255c5333d26656c7fbfe905a51
-  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
-  iosutilities: 943c9776b274e0b201a223b344e2c9ac56f605c2
+  CryptoSwift: bca8c5b653dcc2d9734409242a070ff53bafac86
+  iosutilities: 4a42acb05863286be08c08fcf160965e2bc54e8b
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
-  PKHUD: c7692163a09875cbf15827dc581df3c5cf7f1015
-  Realm: 6f23fd1f178a09342eac21bfa7c2bf4312a7a180
-  RealmSwift: 695393add1b8f9d5fa75dd16e6355cf3935f71e2
+  PKHUD: 3c001512c6e002091184197a8de7a20420786e3b
+  Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
+  RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
 
-PODFILE CHECKSUM: fb829472a36a14f8a37f36cc81ae741dee7e5540
+PODFILE CHECKSUM: 44cc78f3db192ffe503148925d0f64d236cfc1c0
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0

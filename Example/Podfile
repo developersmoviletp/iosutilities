@@ -4,11 +4,12 @@ target 'iosutilities_Example' do
     
     inhibit_all_warnings!
     
-    pod 'PKHUD', '~> 4.0'
-    pod 'AlamofireObjectMapper', '~> 5.0'
-    pod 'Alamofire', '~> 4.5'
+    pod 'PKHUD'
+    pod 'AlamofireObjectMapper'
+    pod 'Alamofire'
     pod 'ActionSheetPicker-3.0'
     pod 'RealmSwift'
+    pod 'CryptoSwift'
     
   pod 'iosutilities', :path => '../'
 
